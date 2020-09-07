@@ -4,7 +4,7 @@ This file is the template for the first lab in Ashesi Web Development 2020.
 
 ## Contents
 
-This repository contains a single file, a script for gathering the basic configuration of the user from bash. My name is Adwoa Nhyira Attafuah-Wadee.
+This repository contains a single file, a script for gathering the basic configuration of the user from bash. My name is Adwoa Nhyira Attafuah-Wadee. Link to published website- https://www.github.com/AdwoaNhyira/lab-1 
 
 ## Using the file
 
