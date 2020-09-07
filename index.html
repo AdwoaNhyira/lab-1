@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:400,500,600">
     <title>Adwoa Nhyira Attafuah-Wadee's Portfolio</title>
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:400,500,600');
+        :root{
+            --raleway: Raleway;
+        }
+
         .nav-menu{
             width: 100%;
-            background-color:black;
+            opacity: 0.5;
+            background-color: rgba(0, 0, 0, .1);
         }
 
         .nav-menu ul{
@@ -21,14 +29,73 @@
 
         .nav-menu ul li a{
             display: block;
-            text-decoration-color: gray;
+            text-decoration: none;
             text-transform: uppercase;
-            color: white;
+            color: rgba(0, 0, 0);
             font-size: 20px;
+            font-family: var(--raleway), sans-serif;
             letter-spacing: 2px;
             font-weight: 600;
             padding: 25px;
         }
+
+        .profile{
+            height: 200px;
+            margin-left: 42.5%;
+            margin-bottom: 20px;
+        }
+
+        .bio{
+            padding-top: 5px;
+            background-color: bisque;
+            padding-bottom: 35px;
+        }
+
+        .name{
+            text-align: center;
+        }
+
+        .bi{
+            margin-top: 25px;
+            margin-left: 85px;
+            margin-right: 85px;
+            text-align: center;
+        }
+
+        .perse{
+            float: left;
+            margin: 0 40px 20px 40px;
+        }
+
+        .q{
+            margin-top: 80px;
+        }
+
+        .quote{
+            padding-top: 180px;
+        }
+
+        .link{
+            margin-top: 260px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+        }
+
+        .here{
+            color: blue;
+        }
+
+        .footer{
+            background-color: #000009;
+            height: 30px;
+            margin: 0;
+        }
+
+        .fname{
+            color: white;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -44,8 +111,33 @@
     </div>
 
     <div>
-        <h1>Adwoa Nhyira Attafuah-Wadee</h1>
-        <p>My name is Adwoa Nhyira Attafuah-Wadee, a university student from Ghana. I am a junior in Ashesi University, located at Berekuso in the Eastern Region of Ghana. I am majoring in Management Information Systems (MIS), which is a study of information systems and their use in businesses and other organizations. I have a wide variety of interests ranging from singing to swimming, from social media marketing to web development, and from travelling to simply lazying about. There's so much I want to achieve in terms of my career and interests, and I am driven to fulfill them one step at a time. </p>
+        <img class="profile" src="./profile.JPG" alt="profile picture">
+    </div>
+
+    <div class="bio">
+        <h1 class="name">Adwoa Nhyira Attafuah-Wadee</h1>
+        <p class="bi">My name is Adwoa Nhyira Attafuah-Wadee, a university student from Ghana. I am a junior in Ashesi University, located at Berekuso in the Eastern Region of Ghana. I am majoring in Management Information Systems (MIS), which is a study of information systems and their use in businesses and other organizations. I have a wide variety of interests ranging from singing to swimming, from social media marketing to web development, and from travelling to simply lazying about. There's so much I want to achieve in terms of my career and interests, and I am driven to do so one step at a time. </p>
+    </div>
+
+    <div class="q">
+        <img class="perse" src="./perse1.jpg" alt="Strong will">
+        <h2 class="quote"><strong>Favourite Quote</strong></h2>
+        <p class="q1"><em>
+            The will to win,<br>
+            the desire to succeed,<br>
+            the urge to reach your full potential...<br>
+            these are the keys that will unlock the door to personal exellence.
+        </em></p>
+        <p>~ Confucius</p>   
+    </div>
+
+    <div class="link">
+        <h3><strong>LinkedIn</strong></h3>
+        <p>Contact me or find my information on LinkedIn. Click <a class="here" href="www.linkedin.com/in/adwoa-nhyira-attafuah-wadee" target="_blank" rel="noopener">here</a>!</p>
+    </div>
+
+    <div class="footer">
+        <p class="fname">&copy Adwoa Nhyira Attafuah-Wadee 2020</p>
     </div>
 </body>
 </html>
